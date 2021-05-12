@@ -11,9 +11,8 @@
             CBU = Contador;
             Saldo = 0;
         }
-        public double Acreditar(double monto)=>Saldo= monto + 1:
+        public double Acreditar(double monto) => Saldo = Saldo + monto;
             public double Debitar(double monto) => Saldo = monto - 1;
         public double Tienealmenos(bool monto) >= Saldo = monto;
     }
-
 }
