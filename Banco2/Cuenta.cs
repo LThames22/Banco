@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Actividad2
+namespace Actividad3
 {
     public class Cuenta
     { 
@@ -18,8 +18,8 @@ namespace Actividad2
 
             Cbu = Contador;
 
-            saldo = 0; 
-    }
+            saldo = 0;     
+    } 
 
         public void acreditar(double monto) 
         {
@@ -36,8 +36,3 @@ namespace Actividad2
     }  
 
 }
-        
-    
-    
-    
-
